@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'us.spotco.maps'
+    compileSdkVersion 35
+    defaultConfig {
+        applicationId "us.spotco.maps"
+        minSdkVersion 21
+        targetSdkVersion 35
+        versionCode 37
+        versionName "1.12"
+        resConfigs 'ar', 'bg', 'cs', 'de', 'en', 'es', 'et', 'fi', 'fr', 'gl', 'hi', 'hr', 'in', 'it', 'ml', 'pl', 'pt', 'pt-rBR', 'ru', 'ta', 'uk', 'zh-rCN'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
+    }
+    lintOptions {
+        disable 'Deprecation'
+    }
+    buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+            minifyEnabled false
+            zipAlignEnabled true
+        }
+        release {
+            shrinkResources true
+            minifyEnabled true
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lint {
+        abortOnError false
+    }
+}
+
+dependencies {
+}
