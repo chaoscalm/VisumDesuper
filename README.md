@@ -1,6 +1,6 @@
 Visum Desuper
 ========
-![54f6da99-e810-4ebe-812c-3c972fb5698f](https://github.com/user-attachments/assets/f7416e73-67ac-4104-aaa3-7787fc4d14f1)
+![398807234-f7416e73-67ac-4104-aaa3-7787fc4d14f1](https://github.com/user-attachments/assets/2c339e8a-ccf2-44b9-a7d8-de8f3580495b)
 
 Visum Desuper is a fork of [GMaps WV](https://f-droid.org/en/packages/us.spotco.maps/)
 [GMaps WV Archived Repository](https://github.com/Divested-Mobile/Maps)
